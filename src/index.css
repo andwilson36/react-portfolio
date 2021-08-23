@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  margin: 0px;
+}
+
+.spacer {
+  aspect-ratio: 1500/1140;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-background {
+  background-image: url('assets/svg/waves.svg');
+}
+
