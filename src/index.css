@@ -16,6 +16,12 @@ h1 {
   margin: 0px;
 }
 
+.name {
+  padding-top: 15rem;
+  font-size: 8rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .spacer {
   aspect-ratio: 1500/1140;
   width: 100%;
