@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: aqua;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -22,6 +23,11 @@ h1 {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.about {
+  font-size: 6rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .spacer {
   aspect-ratio: 1500/1140;
   width: 100%;
@@ -30,7 +36,22 @@ h1 {
   background-size: cover;
 }
 
+.spacer-2 {
+  aspect-ratio: 600/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-section {
+  background-color: #b4d4e1;
+}
+
 .hero-background {
   background-image: url('assets/svg/waves.svg');
 }
 
+.peaks-background {
+  background-image: url('assets/svg/layered-peaks-haikei.svg');
+}
