@@ -4,7 +4,7 @@ import self from '../assets/self.jpg'
 function About() {
     return (
         <div>
-            <div className="about">About Me</div>
+            <div className="title">About Me</div>
             <p className="about-me">
                 <img className="floated" src={self} />
                 Hey, I'm Andrew Wilson. I am 19 years old, have a passion for web development, always up for a challenge and love to learn new things. I am
