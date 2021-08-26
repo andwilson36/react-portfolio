@@ -11,10 +11,15 @@ function App() {
         </div>  
         <div className="peaks-background spacer-2"></div>
       <section></section> 
-      <div className="about-section">  
-        <About />
+      <div className="content">
+        <div className="about-section">  
+          <About />
+        </div>
+        <div className="divider"></div>
+        <div className="project-section">
+
+        </div>
       </div>
-      
     </div>
   );
 }
