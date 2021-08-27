@@ -7,15 +7,15 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">    
+    <div className="App">
       <section></section>
-        <div className="hero-background spacer">
-            <Name />
-        </div>  
-        <div className="peaks-background spacer-2"></div>
-      <section></section> 
+      <div className="hero-background spacer">
+        <Name />
+      </div>
+      <div className="peaks-background spacer-2"></div>
+      <section></section>
       <div className="content">
-        <div className="about-section">  
+        <div className="about-section">
           <About />
         </div>
         <div className="divider"></div>
