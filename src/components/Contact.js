@@ -1,8 +1,8 @@
 import React from 'react'
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined';
-import gitHub from '../assets/github-icon.png';
-import linkedin from '../assets/linkedin-icon.png';
+import gitHub from '../assets/images/github-icon.png';
+import linkedin from '../assets/images/linkedin-icon.png';
 
 function Contact() {
     return (

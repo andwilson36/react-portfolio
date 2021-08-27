@@ -1,9 +1,9 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import longRides from '../assets/long-rides.png';
-import ticket from '../assets/ticket.png';
-import weather from '../assets/weather.png';
+import longRides from '../assets/images/long-rides.png';
+import ticket from '../assets/images/ticket.png';
+import weather from '../assets/images/weather.png';
 
 
 function Projects() {

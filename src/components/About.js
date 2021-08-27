@@ -1,5 +1,5 @@
 import React from 'react'
-import self from '../assets/self.jpg'
+import self from '../assets/images/self.jpg'
 
 function About() {
     return (
