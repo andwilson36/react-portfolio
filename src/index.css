@@ -45,7 +45,7 @@ h1 {
 
 .spacer-2 {
   aspect-ratio: 600/200;
-  width: 100%;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,10 +92,19 @@ h1 {
   font-size: 1.3rem !important;
 }
 
-.project-desc {
-  opacity: .8;
-  background-color: rgb(0, 0, 0);
-  border-radius: 9px;
+.contact-info {
+  margin-top: 5rem;
+}
+
+.icon {
+  max-width: 7rem;
+  margin: 3rem;
+  margin-top: 5rem;
+}
+
+.footer {
+  padding-top: 28rem;
+  color: rgb(206, 206, 206);
 }
 
 .hero-background {
@@ -104,4 +113,12 @@ h1 {
 
 .peaks-background {
   background-image: url('assets/svg/layered-peaks-haikei.svg');
+}
+
+.bottom-background {
+  background-image: url('assets/svg/layered-peaks-haikei-bottom.svg')
+}
+
+.footer-background {
+  background-image: url('assets/svg/layered-waves-haikei.svg')
 }

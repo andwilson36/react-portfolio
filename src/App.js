@@ -2,6 +2,8 @@ import './App.css';
 import Name from './components/Name';
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +22,14 @@ function App() {
         <div className="project-section">
           <Projects />
         </div>
+        <div className="divider"></div>
+        <div>
+          <Contact />
+        </div>
+      </div>
+      <div className="bottom-background spacer-2"></div>
+      <div className="footer-background spacer-2">
+        <Footer />
       </div>
     </div>
   );
