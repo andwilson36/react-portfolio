@@ -1,7 +1,7 @@
 # react-portfolio
 Portfolio which hosts my projects and description of achievements along with strengths.  
 
-Link to deployed website: https://andwilson36.github.io/Personal_Portfolio/
+Link to deployed website: https://andrewwilson.herokuapp.com
 
 ## Objectives 
 
