@@ -10,7 +10,7 @@ function Contact() {
             <div className="title">Contact Me</div>
             <div className="contact-info">
                 <h1><PhoneOutlinedIcon fontSize="large" /> 936-657-9148 | <EmailOutlinedIcon fontSize="large" /> Wilsonandrew57@gmail.com</h1>
-                <a href="https://github.com/andwilson36" target="_blank"><img className="icon" src={gitHub} /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/andrewwilsonjs/" target="_blank"><img className="icon" src={linkedin} /></a>
+                <a href="https://github.com/andwilson36" target="_blank"><img className="icon" alt="GitHub logo" src={gitHub} /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/andrewwilsonjs/" target="_blank"><img className="icon" alt="LinkedIn logo" src={linkedin} /></a>
             </div>
         </div>
     )

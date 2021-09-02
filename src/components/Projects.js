@@ -13,7 +13,7 @@ function Projects() {
             <div className="carousel-container">
                 <Carousel>
                     <div>
-                        <img src={longRides} />
+                        <img alt="screenshot of project" src={longRides} />
                         <p className="legend">
                             <strong>Long Rides</strong>
                             <br></br>
@@ -24,7 +24,7 @@ function Projects() {
                         </p>
                     </div>
                     <div>
-                        <img src={ticket} />
+                        <img alt="screenshot of project" src={ticket} />
                         <p className="legend">
                             <strong>Ticket</strong>
                             <br></br>
@@ -35,7 +35,7 @@ function Projects() {
                         </p>
                     </div>
                     <div>
-                        <img src={weather} />
+                        <img alt="screenshot of project" src={weather} />
                         <p className="legend">
                             <strong>Weather Dashboard</strong>
                             <br></br>
