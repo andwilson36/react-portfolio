@@ -8,7 +8,7 @@ Link to deployed website: https://andrewwilson.herokuapp.com
 ```
 - Make a mobile-friendly website which shows off skills with web design as well as projects and strengths
 
-- Hvae a link to personal GitHub, Twitter, LinkedIn and email as well as phone number.
+- Have a link to personal GitHub, Twitter, LinkedIn and email as well as phone number.
 
 - Should be able to download updated resume through website.
 
