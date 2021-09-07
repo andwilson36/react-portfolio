@@ -1,7 +1,7 @@
 # react-portfolio
 Portfolio which hosts my projects with the deployed links and GitHub repos, a about me section as well as a contact me section.   
 
-Link to deployed website: https://andrewwilson.herokuapp.com
+Link to deployed website: https://www.andrewwilson.dev/
 
 ## Objectives 
 
