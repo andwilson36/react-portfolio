@@ -8,7 +8,7 @@ function About() {
             <p className="about-me">
                 <img className="floated" alt="Picture of myself" src={self} />
                 Hey, I'm Andrew Wilson, I have a passion for web development, always up for a challenge and love to learn new things. I am
-                from Nacogdoches, Texas, and enjoy working with computers, I also like playing games with friends and love cars. During my free time
+                from Nacogdoches, Texas. I enjoy working with computers, playing games with friends and love cars. During my free time
                 I enjoy to read books about web development to gain knowledge of technologies, work on projects and open source applications.
                 <br></br><br></br>
                 I am a coding bootcamp grad from UT of Austin Full-Stack Coding Bootcamp. During my time at the bootcamp I was constantly learning and
