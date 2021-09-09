@@ -129,7 +129,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .name {
-    padding-top: 5rem;
+    padding-top: 10rem;
     font-size: 3rem;
     width: auto;
   }
@@ -147,15 +147,17 @@ h1 {
   }
 
   .spacer {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.1;
     width: 100%;
+    height: 40rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
   .spacer-2 {
-    aspect-ratio: 10/9;
+    aspect-ratio: 1/1;
+    height: 15rem;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
