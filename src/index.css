@@ -23,6 +23,14 @@ h1 {
   font-family: 'Noto Sans', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  .name {
+    padding-top: 5rem;
+    font-size: 3rem;
+    width: auto;
+  }
+}
+
 .title {
   font-size: 6rem;
   font-family: 'Noto Sans', sans-serif;
@@ -43,12 +51,32 @@ h1 {
   background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+  .spacer {
+    aspect-ratio: 1/1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 .spacer-2 {
   aspect-ratio: 600/200;
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .spacer-2 {
+    aspect-ratio: 10/9;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .content {
