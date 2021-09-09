@@ -150,12 +150,50 @@ h1 {
   margin-right: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .legend {
   font-size: 1.3rem !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .legend {
+    font-size: .7rem !important;
+  }
+}
+
 .contact-info {
   margin-top: 5rem;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    margin-top: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .contact-info h1 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+  }
 }
 
 .icon {
@@ -164,9 +202,26 @@ h1 {
   margin-top: 5rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .icon {
+    max-width: 4rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
 .footer {
   padding-top: 28rem;
   color: rgb(206, 206, 206);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: .9rem;
+    padding-top: 13rem;
+    color: rgb(206, 206, 206);
+  }
 }
 
 .hero-background {
