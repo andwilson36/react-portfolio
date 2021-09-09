@@ -23,23 +23,9 @@ h1 {
   font-family: 'Noto Sans', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-  .name {
-    padding-top: 5rem;
-    font-size: 3rem;
-    width: auto;
-  }
-}
-
 .title {
   font-size: 6rem;
   font-family: 'Noto Sans', sans-serif;
-}
-
-@media only screen and (max-width: 600px) {
-  .title {
-    font-size: 3rem;
-  }
 }
 
 .about-me {
@@ -47,16 +33,6 @@ h1 {
   font-family: 'Noto Sans', sans-serif;
   margin: 4rem;
   line-height: 60.5px;
-}
-
-@media only screen and (max-width: 600px) {
-  .about-me {
-    text-align: left;
-    font-size: 1.2rem;
-    font-family: 'Noto Sans', sans-serif;
-    margin: 1rem;
-    line-height: 25px;
-  }
 }
 
 .spacer {
@@ -67,32 +43,12 @@ h1 {
   background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
-  .spacer {
-    aspect-ratio: 1/1;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-}
-
 .spacer-2 {
   aspect-ratio: 600/200;
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-@media only screen and (max-width: 600px) {
-  .spacer-2 {
-    aspect-ratio: 10/9;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
 }
 
 .content {
@@ -111,30 +67,12 @@ h1 {
   margin-left: 9rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .about-section {
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }
-}
-
 .floated{
   float: left;
   width: 30rem;
   margin-top: 1.5rem;
   margin-left: 5rem;
   border-radius: 15px;
-}
-
-@media only screen and (max-width: 600px) {
-  .floated{
-    float: left;
-    width: 8rem;
-    margin-top: 1rem;
-    margin-right: 5px;
-    margin-left: auto;
-    border-radius: 15px;
-  }
 }
 
 .containter {
@@ -150,23 +88,8 @@ h1 {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  .carousel-container {
-    width: 90%;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 .legend {
   font-size: 1.3rem !important;
-}
-
-@media only screen and (max-width: 600px) {
-  .legend {
-    font-size: .7rem !important;
-  }
 }
 
 .contact-info {
@@ -177,51 +100,15 @@ h1 {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
-  .contact-info {
-    margin-top: 3rem;
-  }
-
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
-  }
-
-  .contact-info h1 {
-    margin-top: 3rem;
-    font-size: 1.3rem;
-  }
-}
-
 .icon {
   max-width: 7rem;
   margin: 3rem;
   margin-top: 5rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .icon {
-    max-width: 4rem;
-    margin: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-  }
-}
-
 .footer {
   padding-top: 28rem;
   color: rgb(206, 206, 206);
-}
-
-@media only screen and (max-width: 600px) {
-  .footer {
-    font-size: .9rem;
-    padding-top: 13rem;
-    color: rgb(206, 206, 206);
-  }
 }
 
 .hero-background {
@@ -238,4 +125,95 @@ h1 {
 
 .footer-background {
   background-image: url('assets/svg/layered-waves-haikei.svg')
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    padding-top: 5rem;
+    font-size: 3rem;
+    width: auto;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .about-me {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 1rem;
+    line-height: 25px;
+  }
+
+  .spacer {
+    aspect-ratio: 1/1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .spacer-2 {
+    aspect-ratio: 10/9;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .about-section {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .floated{
+    float: left;
+    width: 8rem;
+    margin-top: 1rem;
+    margin-right: 5px;
+    margin-left: auto;
+    border-radius: 15px;
+  }
+
+  .carousel-container {
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .legend {
+    font-size: .7rem !important;
+  }
+
+  .contact-info {
+    margin-top: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .contact-info h1 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .icon {
+    max-width: 4rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer {
+    font-size: .9rem;
+    padding-top: 13rem;
+    color: rgb(206, 206, 206);
+  }
 }
