@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import longRides from '../assets/images/long-rides.png';
 import ticket from '../assets/images/ticket.png';
-import weather from '../assets/images/weather.png';
+import eridium from '../assets/images/eridium.png';
 
 
 function Projects() {
@@ -13,7 +13,7 @@ function Projects() {
             <div className="carousel-container">
                 <Carousel>
                     <div>
-                        <img alt="screenshot of project" src={weather} />
+                        <img alt="screenshot of project" src={eridium} />
                         <p className="legend">
                             <strong>Eridium</strong>
                             <br></br>
