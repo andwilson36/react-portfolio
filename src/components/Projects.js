@@ -13,13 +13,24 @@ function Projects() {
             <div className="carousel-container">
                 <Carousel>
                     <div>
+                        <img alt="screenshot of project" src={weather} />
+                        <p className="legend">
+                            <strong>Eridium</strong>
+                            <br></br>
+                            If Discord and Slack had an epic baby. This piece of art works using sockets and the FULL MERN stack.
+                            <br></br>
+                            <a href="https://www.eridium.chat/login" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="https://github.com/andwilson36/eridium" target="_blank">GitHub Repo</a>
+                        </p>
+                    </div>
+                    <div>
                         <img alt="screenshot of project" src={longRides} />
                         <p className="legend">
                             <strong>Long Rides</strong>
                             <br></br>
                             Long Rides is an application that allows UT students to have an affordable and convenient rideshare system.
                             <br></br>
-                            <a href="https://github.com/andwilson36/Long_Rides_project_two" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;  
+                            <a href="https://github.com/andwilson36/Long_Rides_project_two" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <a href="https://github.com/andwilson36/Long_Rides_project_two" target="_blank">GitHub Repo</a>
                         </p>
                     </div>
@@ -30,19 +41,8 @@ function Projects() {
                             <br></br>
                             Ticket is a website where you can search anywhere in the world for flights and hotels and see quotes for the areas you want.
                             <br></br>
-                            <a href="https://andwilson36.github.io/Ticket_Project_One/" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;  
+                            <a href="https://andwilson36.github.io/Ticket_Project_One/" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <a href="https://github.com/andwilson36/Ticket_Project_One" target="_blank">GitHub Repo</a>
-                        </p>
-                    </div>
-                    <div>
-                        <img alt="screenshot of project" src={weather} />
-                        <p className="legend">
-                            <strong>Weather Dashboard</strong>
-                            <br></br>
-                            This weather dashboard will take input from users choice of city and display the next five days forecast including, temperature, wind speed, humidity and UV index.
-                            <br></br>
-                            <a href="https://andwilson36.github.io/Weather_Dashboard/" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;  
-                            <a href="https://github.com/andwilson36/Weather_Dashboard" target="_blank">GitHub Repo</a>
                         </p>
                     </div>
                 </Carousel>
