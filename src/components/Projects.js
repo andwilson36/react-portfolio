@@ -30,7 +30,7 @@ function Projects() {
                             <br></br>
                             Long Rides is an application that allows UT students to have an affordable and convenient rideshare system.
                             <br></br>
-                            <a href="https://github.com/andwilson36/Long_Rides_project_two" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="https://long-rides.herokuapp.com/" target="_blank">Deployment</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <a href="https://github.com/andwilson36/Long_Rides_project_two" target="_blank">GitHub Repo</a>
                         </p>
                     </div>
