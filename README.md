@@ -1,5 +1,5 @@
 # react-portfolio
-Portfolio which hosts my projects with the deployed links and GitHub repos, a about me section as well as a contact me section. 
+Portfolio which hosts my projects with the deployed links and GitHub repos, also an about me section as well as a contact me section. 
 
 Link to deployed website: https://www.andrewwilson.dev/
 
